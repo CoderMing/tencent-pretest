@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Nav />
-    <Banner :picList="pageData.bannerImg" />
+    <Banner :imgUrl="pageData.bannerImg" />
     <TitleSection :titData="pageData.titleSectionData"/>
   </div>
 </template>

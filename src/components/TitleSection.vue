@@ -1,11 +1,14 @@
 <template>
-  <section class="title-section">
+  <Header class="title-section">
     <h1>{{titData && titData.title}}</h1>
     <h3>{{titData && titData.smallTitle}}</h3>
-  </section>
+    <Progress value="50" max="100"/>
+  </Header>
 </template>
 
 <script>
+import Progress from './Progress.vue'
+
   export default {
     data () {
       return {
@@ -16,7 +19,7 @@
       'titData'
     ],
     components: {
-
+      Progress
     }
   }
 </script>

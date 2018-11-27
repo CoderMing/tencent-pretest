@@ -1,21 +1,18 @@
 <template>
-  <header class="banner">
-    <Swiper :picList="picList" />
-  </header>
+  <div class="banner" :style="`background-image: url(${imgUrl})`">
+  </div>
 </template>
 
-<script>
-  import Swiper from './Swiper.vue'
-  
+<script>  
   export default {
     data () {
       return {
 
       }
     },    
-    props: [ 'picList' ],
+    props: [ 'imgUrl' ],
     components: {
-      Swiper
+
     }
   }
 </script>
@@ -25,6 +22,6 @@
   
   .banner
     size 100vw 92vw
-    bgimg url(../assets/banner-img-2.png) 100% 100%
+    bgimg url(../assets/banner-img-2.png) cover
     overflow hidden
 </style>

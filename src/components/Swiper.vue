@@ -1,6 +1,8 @@
 <template>
   <div class="carousel">
-    <div class="caro-con">
+    <div 
+      class="caro-con" 
+      :style="`width: ${picList ? picList.length : 1}00vw`">
       <img
         v-for="item in picList"
         :key="item"
@@ -18,9 +20,6 @@
       }
     },
     props: [ 'picList' ],
-    components: {
-
-    }
   }
 </script>
 
