@@ -2,18 +2,37 @@
   <div id="app">
     <Nav />
     <Banner />
+    <TitleSection :titData="pageData.titleSectionData"/>
   </div>
 </template>
 
 <script>
 import Banner from './components/Banner.vue'
 import Nav from './components/Nav.vue'
+import TitleSection from './components/TitleSection.vue'
+
+import MookRequest from './mooks/index'
 
 export default {
   name: 'app',
+
   components: {
     Banner,
-    Nav
+    Nav,
+    TitleSection
+  },
+
+  data() {
+    return {
+      pageData: {}
+    }
+  },
+
+  async beforeCreate() {
+    await MookRequest().then(data => {
+      this.pageData = data
+    })
+    console.log(this)
   }
 }
 </script>

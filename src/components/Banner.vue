@@ -1,7 +1,7 @@
 <template>
-  <div class="banner">
+  <header class="banner">
     <div></div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -18,7 +18,7 @@
 </script>
 
 <style lang="stylus" scoped>
-  @import '../libs/util.styl'
+  @import '../config/config.styl'
   
   .banner
     size 100vw 92vw

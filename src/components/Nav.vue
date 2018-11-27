@@ -1,8 +1,8 @@
 <template>
-  <div class="nav">
+  <nav class="nav">
     <div class="nav-logo"></div>
-    <img src="../assets/nav-tap.png" alt="菜单" class="nav-tap">
-  </div>
+    <div class="nav-tap"></div>
+  </nav>
 </template>
 
 <script>
@@ -19,7 +19,7 @@
 </script>
 
 <style scoped lang="stylus">
-  @import '../libs/util.styl'
+  @import '../config/config.styl'
   .nav
     size 100vw 12vw
     position fixed
@@ -31,10 +31,10 @@
       bgimg url('../assets/logo.png') 
     .nav-tap
       vertical-align middle
-      height 5vw
-      padding 3.5vw
+      size 5vw
       position absolute
-      right 0
-      top 0
+      right 3.5vw
+      top 3.5vw
+      bgimg url('../assets/nav-tap.png')
       
 </style>

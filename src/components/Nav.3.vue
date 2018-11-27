@@ -18,7 +18,7 @@
 </script>
 
 <style scoped lang="stylus">
-  @import '../libs/util.styl'
+  @import '../config/config.styl'
 
  
 </style>
