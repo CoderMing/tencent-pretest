@@ -23,8 +23,6 @@
   .nav
     size 100vw 12vw
     position fixed
-    box-sizing border-box
-    padding 0 3vw
     line-height 12vw
     .nav-logo
       size 30vw 8vw

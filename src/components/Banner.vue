@@ -22,5 +22,5 @@
   
   .banner
     size 100vw 92vw
-    background black
+    bgimg url(../assets/banner-img-2.png) 100% 100%
 </style>
