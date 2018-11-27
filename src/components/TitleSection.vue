@@ -1,7 +1,7 @@
 <template>
   <section class="title-section">
-    <h1>{{titData.title}}</h1>
-    <h3>{{titData.smallTitle}}</h3>
+    <h1>{{titData && titData.title}}</h1>
+    <h3>{{titData && titData.smallTitle}}</h3>
   </section>
 </template>
 

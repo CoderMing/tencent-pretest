@@ -24,6 +24,7 @@
     size 100vw 12vw
     position fixed
     line-height 12vw
+    z-index 10
     .nav-logo
       size 30vw 8vw
       margin 2vw

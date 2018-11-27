@@ -1,18 +1,21 @@
 <template>
   <header class="banner">
-    <div></div>
+    <Swiper :picList="picList" />
   </header>
 </template>
 
 <script>
+  import Swiper from './Swiper.vue'
+  
   export default {
     data () {
       return {
 
       }
-    },
+    },    
+    props: [ 'picList' ],
     components: {
-
+      Swiper
     }
   }
 </script>
@@ -23,4 +26,5 @@
   .banner
     size 100vw 92vw
     bgimg url(../assets/banner-img-2.png) 100% 100%
+    overflow hidden
 </style>
