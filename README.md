@@ -14,13 +14,15 @@ CSS预处理器：`stylus`
 
 
 
-​	自己 Mook 了接口，可以在 `src/mooks/` 文件夹中查看 Mook。
+- 自己 Mook 了接口，可以在 `src/mooks/` 文件夹中查看 Mook。
 
-​	尝试使用了一些Vue的功能，例如 `Filter`，组件分离等。
+- 尝试使用了一些Vue的功能，例如 `Filter`，组件分离等。
 
-​	`stylus` 使用了一部分自定义函数，可以在 `src/libs/util.styl` 文件中查看。
+- `stylus` 使用了一部分自定义函数，可以在 `src/libs/util.styl` 文件中查看。 
 
-​	下半页设置高度大于100vh，目的是为了能让页面滑动，让顶部菜单栏能看到 fixed 效果
+- 进度条自己封装了一个，可以通过props传值修改进度条进度。可以在 `src/componenets/Progress.vue` 中查看。
+
+- 下半页设置高度大于100vh，目的是为了能让页面滑动，让顶部菜单栏能看到 fixed 效果。
 
 
 

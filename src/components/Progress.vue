@@ -6,7 +6,7 @@
         :style="`transform: translateX(-${100 - value / max * 100}%)`">
       </div>
     </div>
-    <div class="prog-p">01期</div>
+    <div class="prog-p">{{info}}</div>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 
       }
     },
-    props: [ 'value', 'max' ],
+    props: [ 'value', 'max', 'info' ],
     components: {
 
     }

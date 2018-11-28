@@ -11,6 +11,8 @@ export default {
     smallTitle: '达成目标竞猜娱乐场将为小朋友支持37500份免费午餐'
   },
 
+  progress: { val: 50, max: 100, info: '01期' },
+
   infoOne: [
     {
       name: '爱心筹集目标数量',
@@ -21,8 +23,6 @@ export default {
       num: 1234285
     }
   ],
-
-  progress: { val: 50, max: 100 },
 
   infoTwo: [
     {

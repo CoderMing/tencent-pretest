@@ -4,7 +4,10 @@
     <Banner :imgUrl="pageData.bannerImg" />
     <TitleSection :titData="pageData.titleSectionData" />
     <div class="section-container">
-      <Progress value="50" max="100"/>
+      <Progress 
+        :value="pageData.progress.val" 
+        :max="pageData.progress.max"
+        :info="pageData.progress.info"/>
       <StaticInfo :infoData="pageData.infoOne" colorMode="dark"/>
       <StaticInfo :infoData="pageData.infoTwo" colorMode="light"/>
       <a class="footer-link" href="https://coderming.com/resume">获取更多爱心 ></a>
