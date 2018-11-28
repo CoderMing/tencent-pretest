@@ -30,7 +30,7 @@ import Progress from './Progress.vue'
     size 100vw auto 
     box-sizing border-box
     background-color #292d36
-    padding 5vw
+    padding 5vw 5vw 0
     color #656b83
     font-size $base-font
     h1
