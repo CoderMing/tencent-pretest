@@ -6,8 +6,8 @@
       class="stai-item"
       v-for="item in infoData"
       :key="item.name">
-      <div class="item-name">{{item.name}}</div>
-      <div class="item-num">{{item.num}}
+      <div class="item-name">{{item.name | add-dot}}</div>
+      <div class="item-num">{{item.num | add-dot}}
         <span>{{item.suffix}}</span>
       </div>
     </div>

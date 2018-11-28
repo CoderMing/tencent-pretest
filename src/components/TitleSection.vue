@@ -2,13 +2,10 @@
   <Header class="title-section">
     <h1>{{titData && titData.title}}</h1>
     <h3>{{titData && titData.smallTitle}}</h3>
-    <Progress value="50" max="100"/>
   </Header>
 </template>
 
 <script>
-import Progress from './Progress.vue'
-
   export default {
     data () {
       return {
@@ -19,7 +16,7 @@ import Progress from './Progress.vue'
       'titData'
     ],
     components: {
-      Progress
+      
     }
   }
 </script>

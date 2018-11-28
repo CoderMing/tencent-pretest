@@ -18,6 +18,8 @@ export default {
     }
   ],
 
+  progress: { val: 50, max: 100 },
+  
   infoTwo: [
     {
       name: '累计献出的爱心',

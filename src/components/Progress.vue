@@ -28,7 +28,7 @@
   @import '../config/config.styl'
   .progress-line
     display flex
-    padding 2vw 0
+    padding 2vw 1vw 0
     box-sizing border-box
     .prog-out
       flex 1
@@ -46,6 +46,8 @@
     .prog-p
       line-height 8vw
       padding-left 1vw
+      color $base-color
+      font-size 3.4vw
 
  
 </style>

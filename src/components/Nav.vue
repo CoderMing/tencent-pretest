@@ -12,8 +12,29 @@
 
       }
     },
-    components: {
-
+    mounted() {
+      ((offset, delayTime) => {
+        let el = window.document.querySelector('.nav')
+        let funcFlag = false
+        let testReg = /^(.*?)( offset)+$/;
+        const loopFunc = () => {
+          let offsetY = window.pageYOffset
+          if (offsetY > offset) {
+            if (testReg.test(el.className)) return void 0
+            else el.className += ' offset'
+          }
+          else {
+            if (testReg.test(el.className)) el.className = el.className.replace(testReg, '$1')
+            else return void 0
+          }
+        }
+        window.addEventListener('scroll', e => {
+          if (funcFlag) return false
+          funcFlag = true
+          loopFunc()
+          setTimeout(() => funcFlag = false, delayTime)
+        })
+      })(100, 50)
     }
   }
 </script>
@@ -25,6 +46,9 @@
     position fixed
     line-height 12vw
     z-index 10
+    transition background .3s
+    &.offset
+      background $bg-color
     .nav-logo
       size 30vw 8vw
       margin 2vw
