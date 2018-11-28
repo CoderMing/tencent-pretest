@@ -61,7 +61,7 @@ export default {
     overflow-x hidden
     .section-container
       background-color $bg-color
-      height 500vh
+      min-height 160vh
       width 94vw
       margin 0 auto
     .footer-link

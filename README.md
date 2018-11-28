@@ -1,10 +1,16 @@
 # Tencent 第0次测试
 
+线上地址：http://static.coderming.com/tencent-pretest/dist/  请在手机端查看
+
+![img](./assets/qr.png)
+
+## 项目说明
+
 脚手架：`@vue/cli`
 
 CSS预处理器：`stylus`
 
-## 项目说明
+
 
 ​	自己 Mook 了接口，可以在 `src/mooks/` 文件夹中查看 Mook。
 
