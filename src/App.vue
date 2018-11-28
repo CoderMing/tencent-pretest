@@ -74,5 +74,6 @@ export default {
       color rgba($base-h1-color, .7)
       padding 2vw
       font-size 4vw
+      padding-bottom 8vw
 
 </style>
