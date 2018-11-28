@@ -7,7 +7,7 @@
       <Progress value="50" max="100"/>
       <StaticInfo :infoData="pageData.infoOne" colorMode="dark"/>
       <StaticInfo :infoData="pageData.infoTwo" colorMode="light"/>
-      <a class="footer-link">获取更多爱心 ></a>
+      <a class="footer-link" href="https://coderming.com/resume">获取更多爱心 ></a>
     </div>
   </div>
 </template>
