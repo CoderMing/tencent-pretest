@@ -1,6 +1,8 @@
 # Tencent 第0次测试
 
-线上地址：http://static.coderming.com/tencent-pretest/dist/  请在手机端查看
+线上地址：http://static.coderming.com/tencent-pretest/dist/  
+
+请在手机端查看。二维码：
 
 ![img](./assets/qr.png)
 
@@ -18,11 +20,13 @@ CSS预处理器：`stylus`
 
 ​	`stylus` 使用了一部分自定义函数，可以在 `src/libs/util.styl` 文件中查看。
 
+​	下半页设置高度大于100vh，目的是为了能让页面滑动，让顶部菜单栏能看到 fixed 效果
+
 
 
 ## 个人信息
 
-张德明，重庆邮电大学20届，2018年1月起实习三个月。
+张德明，重庆邮电大学20届，2019年1月起实习三个月。
 
 简历： https://coderming.com/resume
 

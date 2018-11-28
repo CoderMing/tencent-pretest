@@ -1,5 +1,8 @@
 export default {
-  bannerImg: 'https://imageads.codoon.com/backend/1e8000b0-45db-11e7-91c0-015c5c098dc8.jpg!640m0',
+  bannerImg: (() => [
+    'http://static.coderming.com/pic/banner-img-1.png',
+    'http://static.coderming.com/pic/banner-img-2.png'
+  ][Math.floor(Math.random() * 2)])(),
 
   titleSectionData: {
     title: '免费午餐小善大爱',
@@ -19,7 +22,7 @@ export default {
   ],
 
   progress: { val: 50, max: 100 },
-  
+
   infoTwo: [
     {
       name: '累计献出的爱心',
