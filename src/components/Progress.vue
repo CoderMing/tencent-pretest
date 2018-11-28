@@ -43,6 +43,7 @@
         background-color #ee503f
         transition transform .3s
         border-radius 1vw
+        transform translateX(-100%)
     .prog-p
       line-height 8vw
       padding-left 1vw
