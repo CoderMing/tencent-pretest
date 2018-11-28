@@ -34,7 +34,7 @@
           loopFunc()
           setTimeout(() => funcFlag = false, delayTime)
         })
-      })(100, 50)
+      })(300, 50)
     }
   }
 </script>

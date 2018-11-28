@@ -46,8 +46,11 @@
       div.item-num
         color $base-h1-color
     .stai-item
-      padding 4vw 5vw
+      padding 0 5vw
+      margin 4vw 0
       flex 1
+      &:first-of-type
+        border-right 0.5px solid rgba($base-color, .5)
       div.item-name
         line-height 2em
       div.item-num

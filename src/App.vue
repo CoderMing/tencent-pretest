@@ -8,6 +8,7 @@
       <StaticInfo :infoData="pageData.infoOne" colorMode="dark"/>
       <StaticInfo :infoData="pageData.infoTwo" colorMode="light"/>
       <a class="footer-link" href="https://coderming.com/resume">获取更多爱心 ></a>
+      <p class="content">{{pageData.content}}</p>
     </div>
   </div>
 </template>
@@ -61,7 +62,6 @@ export default {
     overflow-x hidden
     .section-container
       background-color $bg-color
-      min-height 160vh
       width 94vw
       margin 0 auto
     .footer-link
@@ -70,5 +70,9 @@ export default {
       display block
       text-align center
       padding 4vw 0
+    .content
+      color rgba($base-h1-color, .7)
+      padding 2vw
+      font-size 4vw
 
 </style>
